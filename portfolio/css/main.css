@@ -1,0 +1,107 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #D2D2D2;
+}
+
+.headrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40px;
+  padding-top: 20px;
+  border-bottom: 1px solid black;
+  font-family: times;
+  font-size: 28px;
+}
+
+.name {
+  display: flex;
+  flex: 1;
+  padding-left: 20px;
+}
+
+.email {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.phone {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.first {
+  display: flex;
+  flex: 0.75;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: times;
+
+  font-size: 42px;
+  line-height: 60px;
+  padding-top: 30px;
+  }
+
+.second {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  flex: 2;
+  align-items: center;
+}
+
+.silo1 {
+  display: flex;
+  flex-direction: column;
+  }
+
+.silo2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.silo3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.texts {
+  text-align: center;
+  font-size: 22px;
+  padding-bottom: 20px;
+  font-family: times;
+}
+
+.imaged {
+  display: flex;
+
+
+}
+
+.floatp {
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.imgdesc {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.floatb {
+height: 40px;
+width: 100px;
+background-color: #F5F5F5;
+border-radius: 5px;
+line-height: 14px;
+font-weight: bold;
+
+}
